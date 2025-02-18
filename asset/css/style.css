@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", serif;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+header{
+    background-color: #D3D3D3;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.banner{
+    background-color: gray;
+    text-align: center;
+    height: 200px;
+    line-height: 200px;
+   
+}   
+
+.product{
+    background-color: #ffffff;
+    padding: 100px;
+}
+
+.product .container h2{
+    text-decoration: underline;
+}
+
+.product .container span{
+    color: gray;
+}
+
+.product .container p{
+    color: gray;
+}
+
+.about{
+    background-color: #ddd;
+    padding: 100px;
+}
+
+.about .container h2{
+    text-decoration: underline;
+}
+
+.about .container span{
+    color: gray;
+}
+
+.about .container p{
+    color: gray;
+}
+
+.about .container p{
+    text-transform: uppercase;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+footer{
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+footer h2{
+    text-align: center;
+}
+
+footer .container span{
+    color: gray;
+}
+
+hr{
+    margin-top: 30px;
+}
